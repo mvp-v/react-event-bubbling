@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Block ref={level1Block} id="level1">
-        <Block ref={level2Block} id="level2">
+        <Block ref={level2Block} id="level2" stopPropagation>
           <Block ref={level3Block} id="level3" />
         </Block>
       </Block>
